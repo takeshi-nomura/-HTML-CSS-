@@ -1,0 +1,184 @@
+html {
+    background-color: #ffffff;
+    color: black;
+    font-family: Noto Sans Japanese;
+    width: 960px;
+    height: 1220px;
+}
+
+header {
+    display: flex;
+    width: 598px;
+    height: 69px;
+    margin: 20px 181px;
+    font-size: 34px;
+    justify-content: space-between;
+
+}
+
+.header-a-w {
+    display: flex;
+    width: 255px;
+    justify-content: space-between
+}
+
+.header-myprofile {
+    padding: 11.5px 28.5px;
+    text-align: center;
+    width: 163px;
+    height: 46px;
+    border: solid 1px;
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.header-about {
+    width: 104px;
+    height: 46px;
+    padding: 11.5px 0px;
+    font-size: 34px;
+    font-weight: 700;
+    margin-right: px;
+}
+
+.header-works {
+    width: 104px;
+    height: 46px;
+    padding: 11.5px 0px;
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.main-img {
+    width: 960px;
+    height: 400px;
+    margin: 0px auto;
+}
+
+main {
+    margin-bottom: 30px;
+}
+
+.about h1 {
+    text-align: center;
+    margin-bottom: 0px;
+    font-size: 34px;
+    font-weight: 700;
+
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.profile {
+    display: flex;
+
+}
+
+.kazuki_photo {
+    width: 141px;
+    height: 142px;
+}
+
+.about-detail {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: -12px;
+
+}
+
+.profile {
+    margin: 10px auto;
+
+}
+
+.kazuki_photo {
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.about-detail h2 {
+    margin-left: 6px;
+
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+
+
+}
+
+.about-detail ul {
+    margin-top: -10px;
+    width: 405px;
+    height: 100px;
+}
+
+.about-detail h3 {
+    margin-left: 300px;
+}
+
+
+.works-title {
+    margin: 0px auto;
+    font-size: 34px;
+}
+
+.works {
+    display: flex;
+    flex-direction: column;
+    width: 573px;
+    height: 329px;
+    margin: 0px auto;
+}
+
+.works p {
+    width: 178px;
+    height: 93px;
+}
+
+.region {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.nihonkai {
+    width: 179px;
+    height: 134px;
+
+}
+
+.ontakesan {
+    width: 179px;
+    height: 134px;
+
+}
+
+.matinami {
+    width: 179px;
+    height: 134px;
+}
+
+.works-detail p {
+    width: 178px;
+    height: 93px;
+}
+
+footer {
+    font-size: 18px;
+    text-align: center;
+    margin: 40px
+}
+@media(max-width:767px){
+    .region {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 40px;
+    }
+}
+
